@@ -1,0 +1,38 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "Descripción de nuestro proyecto.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "example"
+  ],
+  "author": "Manz",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.1.3",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.8.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-less": "^3.3.2",
+    "gulp-newer": "^1.3.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11",
+    "gulp-webserver": "^0.9.1",
+    "http-server": "^0.10.0",
+    "less": "^2.7.2",
+    "postcss": "^6.0.10",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
