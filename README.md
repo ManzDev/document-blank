@@ -62,7 +62,7 @@ apm install linter busy-signal intentions linter-ui-default linter-eslint linter
  |- package.json              ; JSON NPM Package Config
 ```
 
-* **Remember!** Don't touch dist/ files. You should only edit files in src/ folder.
+* **Remember!** [Don't touch dist/](https://youtu.be/otCpCn0l4Wo?t=14) files. You should only edit files in src/ folder.
 
 ## Installation
 
@@ -104,3 +104,9 @@ gulp watch-js               ; Watch JS/ES6 and launch tasks if changes
 gulp www                    ; Launch local web server
 gulp watch                  ; Watch all prev tasks (and local web server)
 ```
+
+## To do / Future improvements
+
+- Change **Gulp webserver / Livereaload** to **Browser Sync** https://browsersync.io/
+- Implement polyfill system for outdated browsers https://polyfill.io/v2/docs/
+- Implement polyfill WHATWG Fetch for outdated browsers https://github.github.io/fetch/
